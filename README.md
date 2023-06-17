@@ -17,8 +17,6 @@ Use PUT: &nbsp&emsp;&ensp; /tables/[num]?[sshkey]&[order] &ensp; (sshkey=user *h
 <br>
 <em>Post working on request attributes, not in body</em>
 <br>
-![post](https://github.com/sonytruelove/REST-API-restaurant-reservation/assets/42536061/641bbb20-2ef7-480b-83a1-2f082e4903b7)
-<br>
-![delete](https://github.com/sonytruelove/REST-API-restaurant-reservation/assets/42536061/878e908d-6eae-46ed-a577-643c35ac1d57)
 
-
+![post](https://github.com/sonytruelove/REST-API-restaurant-reservation/assets/42536061/b7ab4812-b5ff-4bc7-88e9-409cacbc3ae3)
+![delete](https://github.com/sonytruelove/REST-API-restaurant-reservation/assets/42536061/de106e2a-3ff4-4314-86af-8184fc768311)
