@@ -65,7 +65,7 @@ export class OrderForm {
       delete OrderForm.order.dishes[OrderForm.dish_title];
     }
     total.count.toFixed(2);
-    totalspan.innerText = "Total: " + total.count;
+    totalspan.innerText = "Total: " + total.count+"$";
     if (!total.count) totalspan.hidden = true;
   }
 }
