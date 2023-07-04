@@ -1,0 +1,229 @@
+html,
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+body {
+  background-color: #f7e6e6;
+}
+.response{
+  top:50vh
+}
+.nav a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 5;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #f7e6e6;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.nav a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+li {
+  float: left;
+  display: inline-block;
+}
+.nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+ul li a.active,
+.order-btn .active {
+  background-color: #f7e6e6;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fffafa;
+}
+.side-menu nav {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.side-menu nav li {
+  margin: 5px;
+  font-weight: bolder;
+  border: groove 1px;
+  border-radius: 15px;
+}
+.side-menu nav li a.active {
+  border-radius: 15px;
+}
+.side-menu {
+  position: fixed;
+  left: 75.5vw;
+  top: 1vw;
+  bottom: 1vw;
+  background-color: #fffafa;
+  width: 24vw;
+  height: 97vh;
+}
+
+.side-menu .grid {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin: 15px;
+}
+.dish-card {
+  border: 0.15rem solid;
+  width: 10vw;
+  height: 24vh;
+  line-height: 0.8;
+  margin-top: 5px;
+  word-wrap: break-word;
+}
+.dish-card.active {
+  border-color: #f7e6e6;
+}
+.main-image > img {
+  width: 75vw;
+  height: 75vh;
+}
+.dish-card img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  max-height: 45%;
+  padding: 0;
+}
+.dish-card:hover {
+  border: none;
+  width: 11vw;
+  height: 26vh;
+  z-index: 1;
+}
+.dish-card center > h4 {
+  padding: 0;
+  margin-top: 6.6px;
+  font-size: 1.2vw;
+}
+.dish-card center > h5 {
+  font-weight: lighter;
+  line-height: 0;
+  font-size: 1vw;
+}
+.main-image .free > img {
+  box-shadow: 0px 0px 0px 0 green, 0px 0px 4px 4px lightgreen,
+    0px 0px 8px 2px green, 0px 0px 0px 2px green !important;
+}
+.main-image .active > img {
+  box-shadow: 0px 0px 0px 0 pink, 0px 0px 4px 4px pink, 0px 0px 8px 2px pink,
+    0px 0px 0px 2px pink !important;
+}
+.main-image .free > img:hover {
+  box-shadow: 0px 0px 0px 0 pink, 0px 0px 4px 4px pink, 0px 0px 8px 2px pink,
+    0px 0px 0px 2px pink !important;
+}
+
+#table1 > img,
+#table2 > img,
+#table3 > img {
+  height: 23.5vh;
+  width: 6.25vw;
+  box-shadow: 0px 1px 2px 0px yellow, 1px 2px 4px 0px yellow,
+    2px 4px 8px 0px yellow, 2px 4px 16px 0px yellow;
+}
+#table4 > img,
+#table5 > img,
+#table6 > img {
+  height: 11.2vh;
+  width: 6.25vw;
+  box-shadow: 0px 0px 0px 0px yellow, 0px 0px 4px 4px yellow,
+    0px 0px 8px 2px yellow, 0px 0px 0px 2px yellow;
+}
+#table1 > img {
+  position: absolute;
+  top: 13.5vh;
+  left: 15.5vw;
+}
+#table2 > img {
+  position: absolute;
+  top: 13.5vh;
+  left: 34.5vw;
+}
+#table3 > img {
+  position: absolute;
+  top: 13.5vh;
+  left: 53.25vw;
+}
+#table4 > img {
+  position: absolute;
+  top: 52.25vh;
+  left: 15vw;
+}
+#table5 > img {
+  position: absolute;
+  top: 52.2vh;
+  left: 34.5vw;
+}
+#table6 > img {
+  position: absolute;
+  top: 52.4vh;
+  left: 53.5vw;
+  width: 6vw;
+}
+
+.main-image {
+  height: 75%;
+  width: 75%;
+  position: absolute;
+  background-color: powderblue;
+}
+
+.total {
+  position: relative;
+  top: 80vh;
+  left: 60vw;
+}
+.order-btn {
+  left: 20vw;
+  top: -6vh;
+  height: 15%;
+  width: 15%;
+  color: gray;
+  text-align: center;
+  padding: 14px 0px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  border: groove 1px;
+  border-radius: 15px;
+  background-color: #fffaf2;
+}
+.order-btn.active {
+  color: black;
+  background-color: #fffafa;
+}
+.order-btn.active:after {
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  display: block;
+  height: 4px;
+  background: #f7e6e6;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.order-btn.active:hover:after {
+  width: 100%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
