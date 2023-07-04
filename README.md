@@ -1,4 +1,4 @@
-![изображение](https://github.com/sonytruelove/REST-API-restaurant-reservation/assets/42536061/7a19f3a9-032c-4a2c-bfce-b0654e26671e)<h2>RESTFUL API SERVICE</h2>
+<h2>RESTFUL API SERVICE</h2>
 Модель резервации столов 
 <br>Table reservation model</br>
 <h4>Check in Live!</h4> https://gelatinous-thirsty-option.glitch.me 
