@@ -65,7 +65,7 @@ export class Main {
             order_btn.href = "#";
           }
         }
-        totalspan.innerText = "Total: " + total.count;
+        totalspan.innerText = "Total: " + total.count+"$";
         if (!total.count) totalspan.hidden = true;
       });
     }
